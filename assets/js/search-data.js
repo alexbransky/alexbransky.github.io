@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
@@ -35,7 +28,7 @@ ninja.data = [{
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/profiles/";
+            window.location.href = "/_pages/profiles.html";
           },
         },{id: "dropdown-projects",
               title: "projects",
@@ -43,13 +36,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
               },
             },{
       id: 'light-theme',
