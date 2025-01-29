@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -37,7 +37,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{
+            },{id: "projects-power-bi-with-open-data",
+          title: 'Power BI with Open Data',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Power_BI_with_Open_Data/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
